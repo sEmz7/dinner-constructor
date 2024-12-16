@@ -22,7 +22,7 @@ public class DinnerConstructor {
 
     ArrayList<String> generateNewDishes(ArrayList<String> dishesTypes) {
         ArrayList<String> generatedDishes = new ArrayList<>();
-        for (String dishType: dishesTypes) {
+        for (String dishType : dishesTypes) {
             dishesArray = dishes.get(dishType);
             generatedDishes.add(dishesArray.get(random.nextInt(dishesArray.size())));
         }
