@@ -3,7 +3,7 @@ package ru.practicum.dinner;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class Main { // main class
 
     static DinnerConstructor dc;
     static Scanner scanner;
