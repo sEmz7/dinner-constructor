@@ -35,7 +35,7 @@ public class Main {
         System.out.println("2 - Сгенерировать комбинации блюд");
         System.out.println("3 - Выход");
     }
-
+    // Добавление блюда в хэш мап
     private static void addNewDish() {
         System.out.println("Введите тип блюда:");
         String dishType = scanner.nextLine();
