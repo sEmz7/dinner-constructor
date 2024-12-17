@@ -28,7 +28,7 @@ public class Main {
             }
         }
     }
-
+    // Вывод меню
     private static void printMenu() {
         System.out.println("Выберите команду:");
         System.out.println("1 - Добавить новое блюдо");
