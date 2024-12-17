@@ -45,6 +45,7 @@ public class Main {
         dc.addDish(dishType, dishName);
     }
 
+    // Генерация комбо блюд
     private static void generateDishCombo() {
         ArrayList<String> dishesTypes = new ArrayList<>();
         System.out.println("Начинаем конструировать обед...");
