@@ -25,6 +25,8 @@ public class Main { // main class
                     break;
                 case "3":
                     return;
+                default:
+                    System.out.println("Такой команды нет. Попробуйте еще раз");
             }
         }
     }

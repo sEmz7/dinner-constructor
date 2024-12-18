@@ -12,7 +12,11 @@ public class DinnerConstructor {
 
     void addDish(String dishType, String dishName) {
         if (dishes.containsKey(dishType)) {
-            dishes.get(dishType).add(dishName);
+            if (!dishes.get(dishType).contains(dishName)) {
+                dishes.get(dishType).add(dishName);
+            } else {
+                System.out.println("Такое блюдо уже есть.");
+            }
         } else {
             dishesArray = new ArrayList<>();
             dishesArray.add(dishName);
